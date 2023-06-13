@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                cleanWs()
                 sh '''
                 npm install
                 node index.js
