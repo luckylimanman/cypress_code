@@ -1,5 +1,5 @@
 describe('empty spec', () => {
   it('passes', () => {
-    cy.visit('https://www.badu.com')
+    cy.visit('https://www.baidu.com')
   })
 })
